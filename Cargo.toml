@@ -9,4 +9,20 @@ edition = "2018"
 name="day1"
 path="./src/day1.rs"
 
+
+# [lib]
+# name="libday1"
+# path="./src/libday1.rs"
+
+
 [dependencies]
+
+
+
+
+[dev-dependencies]
+criterion = "0.3"
+
+[[bench]]
+name = "my_benchmark"
+harness = false
